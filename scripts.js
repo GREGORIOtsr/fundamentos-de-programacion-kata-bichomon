@@ -20,3 +20,10 @@ let cage = document.querySelectorAll('.img-sprite');
 for (i = 0; i < cage.length; i++) {
     cage[i].src = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
 }
+
+// 7.
+let flying = document.querySelectorAll('.flying');
+
+for (i = 0; i < flying.length; i++) {
+    flying[i].parentElement.parentElement.style.backgroundColor = 'aquamarine';
+}
